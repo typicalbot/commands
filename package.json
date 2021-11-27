@@ -7,6 +7,7 @@
     "type": "git",
     "url": "https://github.com/typicalbot/commands.git"
   },
+  "main": "dist/index.js",
   "files": [
     "dist/"
   ],
