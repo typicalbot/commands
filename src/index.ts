@@ -1,5 +1,5 @@
-import { CommandHandler } from "./CommandHandler";
+import CommandHandler from './CommandHandler';
+import CommandCollection from './CommandCollection';
+import { registerGlobalCommands, unregisterGlobalCommands } from './CommandRegistry';
 
-export {
-    CommandHandler
-}
+export { CommandCollection, CommandHandler, registerGlobalCommands, unregisterGlobalCommands };

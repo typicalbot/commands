@@ -4,9 +4,10 @@
     "strict": true,
     "moduleResolution": "Node",
     "module": "CommonJS",
-    "target": "ES2020",
+    "target": "ESNext",
     "lib": [
-      "ESNext"
+      "ESNext",
+      "ESNext.AsyncIterable"
     ],
     "declaration": true,
     "sourceMap": true,
