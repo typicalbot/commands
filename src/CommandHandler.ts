@@ -1,7 +1,7 @@
-import { ApplicationCommandData, Client, CommandInteraction } from 'discord.js';
+import { ApplicationCommandData, BaseCommandInteraction, Client } from 'discord.js';
 
 interface CommandHandler<T extends Client> {
-    (client: T, interaction: CommandInteraction): Promise<unknown> | unknown;
+    (client: T, interaction: BaseCommandInteraction<'cached'>): Promise<unknown> | unknown;
     options: ApplicationCommandData;
 }
 
