@@ -1,6 +1,6 @@
 {
   "name": "@typicalbot/commands",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Minimalistic slash command library for Discord.js",
   "license": "Apache-2.0",
   "repository": {
