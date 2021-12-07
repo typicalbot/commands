@@ -3,7 +3,7 @@ import CommandHandler from './CommandHandler';
 
 class CommandCollection extends Collection<string, CommandHandler<any>> {
     add(command: CommandHandler<any>) {
-        super.set(command.options.name, command);
+        super.set(command.options.name.toLowerCase(), command);
     }
 }
 
